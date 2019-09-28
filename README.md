@@ -1,5 +1,12 @@
 # scrape-web
 
+## How to use this?
+`scrape_class.py` provides a class `UserAgent` which can cycle through different headers, proxies, IP addresses etc. to help scrape your website.
+
+You have an option use TOR (by setting the field `USE_TOR` to True) to cycle through different IP addresses. You will however have to install TOR related packages to get this going. Instruction on this below.
+
+An example implementation of `UserAgent` is shown in `scrape_site.py`.
+
 ## An excellent resource to setup TOR on your machine and access via Python
 https://gist.github.com/DusanMadar/8d11026b7ce0bce6a67f7dd87b999f6b
 
